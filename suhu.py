@@ -21,3 +21,12 @@ elif inputan.upper() == "F":
   jenis1 = "Celsius"
   jenis2 = "Kelvin"
   jenis3 = "Reamur"
+
+elif inputan.upper() == "K":
+  hasil1 = float(drjt - 273.15)
+  hasil2 = float(((drjt - 273.15) * 9 / 5)+32)
+  hasil3 = float(4/5 * (drjt-273))
+  jenisX = "Kelvin"
+  jenis1 = "Celcius"
+  jenis2 = "Fahrenheit"
+  jenis3 = "Reamur"
