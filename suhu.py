@@ -1,6 +1,14 @@
-a = 5
-b = 10
-c = a+b
-ptint("Nilai C adalah:",c)
+print("Program Konversi Suhu ekorkode.com")
 
-print("Hitung Luas Bangun Datar")
+suhu = input("Masukan suhu? (Misal: 30C, 20F, 21K, 44R): ")
+drjt = int(suhu[:-1])
+inputan = suhu[-1]
+
+if inputan.upper() == "C":
+  hasil1 = float((9 * drjt) / 5 + 32)
+  hasil2 = float(drjt + 273.15)
+  hasil3 = float(4/5 * drjt)
+  jenisX = "Celcius"
+  jenis1 = "Fahrenheit"
+  jenis2 = "Kelvin"
+  jenis3 = "Reamur"
