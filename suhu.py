@@ -30,3 +30,18 @@ elif inputan.upper() == "K":
   jenis1 = "Celcius"
   jenis2 = "Fahrenheit"
   jenis3 = "Reamur"
+
+  elif inputan.upper() == "R":
+      hasil1 = float((5/4) * drjt)
+  hasil2 = float((9/4 * drjt) + 32)
+  hasil3 = float((5/4 * drjt) + 273)
+  jenisX = "Reamur"
+  jenis1 = "Celcius"
+  jenis2 = "Fahrenheit"
+  jenis3 = "Kelvin"
+else:
+   print("Inputan tidak sesuai!! Perhatikan Penulisan Input")
+
+print(drjt,jenisX,"=","{:.1f}".format(hasil1),jenis1)
+print(drjt,jenisX,"=","{:.1f}".format(hasil2),jenis2)
+print(drjt,jenisX,"=","{:.1f}".format(hasil3),jenis3)
